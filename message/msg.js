@@ -74,10 +74,10 @@ const chrisapi = "IzumiBot"
 const nobot = "37258266435"
 
 // Setting Donasi
-const gopay = "0813-2850-7885"
-const pulsa = "0813-2850-7885"
-const insta = "chris.tianid"
-const github = "TianBot1"
+const dana = "0857-9242-9140"
+const pulsa = "0857-9242-9140"
+const insta = "q.c ditya"
+const github = "Dityaastawa"
 
 // Exif
 const Exif = require("../lib/exif")
@@ -275,25 +275,25 @@ module.exports = async(conn, msg, m, setting, store) => {
 		}
 		//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+${ownerNumber}` } },
 		const buttonsDefault = [
-			{ urlButton: { displayText: `Group Izumi Bot`, url : `https://chat.whatsapp.com/I8tfqFi2dXi6pxNJTVrAb2` } },
-			{ urlButton: { displayText: `Nomer Owner`, url : `https://wa.me/6285921165857` } },
+			{ urlButton: { displayText: `Group Ditya Botz`, url : `https://chat.whatsapp.com/CXP3PISEIaF90hb5WbUIRh` } },
+			{ urlButton: { displayText: `Nomer Owner`, url : `https://wa.me/6285237596750` } },
 			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Script`, id: `${prefix}sc` } },
 		]
 		const button5 = [
-			{ callButton: { displayText: `Number Owner`, phoneNumber: `0859-2116-5857` } },
-			{ urlButton: { displayText: `Group Izumi Bot`, url : `https://chat.whatsapp.com/I8tfqFi2dXi6pxNJTVrAb2` } },
+			{ callButton: { displayText: `Number Owner`, phoneNumber: `0852-3759-6750` } },
+			{ urlButton: { displayText: `Group Ditya Botz`, url : `https://chat.whatsapp.com/CXP3PISEIaF90hb5WbUIRh` } },
 			{ quickReplyButton: { displayText: `Back To Menu 🔙`, id: `${prefix}menu` } },
 		]
 		const buttonsSewa = [
-			{ urlButton: { displayText: `Group Izumi Bot`, url : `https://chat.whatsapp.com/I8tfqFi2dXi6pxNJTVrAb2` } },
-			{ urlButton: { displayText: `Nomer Owner`, url : `https://wa.me/6285921165857` } },
+			{ urlButton: { displayText: `Group Ditya Botz`, url : `https://chat.whatsapp.com/CXP3PISEIaF90hb5WbUIRh` } },
+			{ urlButton: { displayText: `Nomer Owner`, url : `https://wa.me/6285237596750` } },
 			{ quickReplyButton: { displayText: `Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Menu`, id: `${prefix}menu` } },
 		]
 		const buttonsMenu = [
-			{ urlButton: { displayText: `Group Izumi Bot`, url : `https://chat.whatsapp.com/I8tfqFi2dXi6pxNJTVrAb2` } },
-			{ urlButton: { displayText: `Nomer Owner`, url : `https://wa.me/6285921165857` } },
+			{ urlButton: { displayText: `Group Ditya Botz`, url : `https://chat.whatsapp.com/CXP3PISEIaF90hb5WbUIRh` } },
+			{ urlButton: { displayText: `Nomer Owner`, url : `https://wa.me/6285237596750` } },
 			{ quickReplyButton: { displayText: `Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Rules`, id: `${prefix}rules` } },
 			{ quickReplyButton: { displayText: `Premium`, id: `${prefix}daftarprem` } },
@@ -435,13 +435,13 @@ _Yakin kamu mau daftar ke premium?_
 case prefix+'sc':
   var teks = `*── 「 SOURCE CODE 」 ──*
 
-*Script : https://youtube.com/channel/UCbetUssizXWLgZdDVEFp8Sg*
+*Script : http://wa.me/6285237596750?text=Mau+sc+nya+kak*
 
 *_Sc Bot Versi 1 Via MediaFire : https://www.mediafire.com/file/zi97farlseupw3z/Christian-ID.zip/file_*
 
 *_Sc Bot Versi 2 Via MediaFire : https://www.mediafire.com/file/l8zoyc38l420wen/ChrisV1.7z/file_*
 
-_Sc Versi 2 Berpassword Syarat : Subscribe https://youtube.com/channel/UCbetUssizXWLgZdDVEFp8Sg Dan Screenshot Kirim Ke Owner_`
+_Sc Versi 2 Berpassword Syarat : Follow https://instagram.com/q.c.ditya Dan Screenshot Kirim Ke Owner_`
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/chris.jpg') }, templateButtons: button5, footer: '© Izumi - Bot', mentions: [sender] })
 			    break
 case prefix+'rules':
@@ -495,7 +495,7 @@ Permanen = 30.000
 *_Pembayaran Melalui Qris Link Qris = https://telegra.ph/file/7549e4bff7f7c8124b20d.jpg_*
 
 *_Untuk Konfirmasi Saldo Hubungi Owner Silakan Klick Link Di Bawah_*
-*_wa.me/6285921165857_*`
+*_wa.me/6285237596750_*`
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/sewa.jpg') }, templateButtons: buttonsSewa, footer: '© Sewa Bot Christian ID', mentions: [sender] })
 			    break
 			case prefix+'runtime':
@@ -507,7 +507,7 @@ case prefix+'claim':
   reply(`Selamat Anda Mendapatkan ${htgm} Balance`)
   break
 case prefix+'groupizumi':
-  reply("Group 1\n\nhttps://chat.whatsapp.com/F92O1RmRXU2FYx3TudDVFj\nGroup 2\n\nhttps://chat.whatsapp.com/HWDIowVhHcd4EIm88F4X1y")
+  reply("Group 1\n\nhttps://chat.whatsapp.com/CXP3PISEIaF90hb5WbUIRh\nGroup 2\n\nhttps://chat.whatsapp.com/CXP3PISEIaF90hb5WbUIRh")
   break
 			case prefix+'speed':
 			  reply("Testing Speed...")
@@ -518,10 +518,10 @@ case prefix+'groupizumi':
 case prefix+'infobot':
   case prefix+'inforobot':
     case prefix+'info':
-      var caption = `*[ INFO IZUMI BOT ]*
+      var caption = `*[ INFO DITYA BOTZ ]*
 
-*Nama Bot :* Izumi - MD
-*Name Owner :* Christian ID
+*Nama Bot :* Dityabotz - MD
+*Name Owner :* Ditya AstWa
 *Nomor Bot :* wa.me/${nobot}
 *Nomor Owner :* wa.me/${ownerNumber}
 *Engine :* NodeJs
@@ -544,15 +544,15 @@ break
 			    reply(`◪ DONASI
   │
   ├─ ❏ GOPAY
-  ├─ ❏ 088213292687
+  ├─ ❏ tidak ada
   ├─ ❏ OVO
-  ├─ ❏ 088213292687
+  ├─ ❏ tidak ada
   ├─ ❏ PULSA
-  ├─ ❏ 081319944917
+  ├─ ❏ 085792429140
   ├─ ❏ PULSA2
-  ├─ ❏ 088213292687
+  ├─ ❏ 085792429140
   ├─ ❏ INSTAGRAM
-  └─ ❏ https://www.instagram.com/chris.tianid
+  └─ ❏ https://www.instagram.com/q.c.ditya
   
   Donasi Untuk Upgrade Ke Fitur Premium
   Note : Donasi Seikhlasnya`)
@@ -1311,7 +1311,7 @@ case prefix+'n':
   reply("Yah Maaf Ya kak:(")
   break
 case prefix+'sc':
-  reply("*Script : https://youtube.com/channel/UCbetUssizXWLgZdDVEFp8Sg* ")
+  reply("*Script : http://wa.me/6285237596750?text=Mau+sc+nya+kak* ")
   break
 case prefix+'apakah':
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
